@@ -25,10 +25,13 @@ padding: 15px 35px;
 }
 
 /* nav releted styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
+    margin: 0 140px;
+
+
 }
 
 .nav-title {
@@ -55,4 +58,53 @@ nav li {
 nav a {
  text-decoration: none;
  color:#474747;   
+}
+
+.header{
+
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 600px;
+}
+
+
+.banner {
+padding: 30px 30px 0px 100px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.banner .profile-pic {
+
+    width: 400px;height: 450px
+
+}
+
+.banner-greeting{
+    font-size: 45px;
+    color: #474747; 
+    bottom: 0px;
+
+}
+
+
+.banner-content{
+  max-width: 500px;
+}
+
+.banner-title{
+
+ font-size: 60px;
+ font-weight: 500px;
+ margin: 5px;
+ margin-bottom: 20px;
+   
+}
+.banner-discription{
+    margin-bottom: 30px;
 }
